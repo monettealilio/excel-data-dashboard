@@ -1,28 +1,33 @@
-📊 Excel-to-Dashboard Tool
+<H1> 📊 Excel-to-Dashboard Tool</H1> 
 This is a lightweight Python web application that transforms messy Excel or CSV files into interactive, clean bar charts.
 
-🚀 How to Run This App
-Install Python: Ensure you have Python 3.9+ installed on your Mac.
-
-Install Dependencies: Open your terminal and run:
-
-Bash
+<H2> 🚀 How to Run This App</H2> 
+<ol>
+  <li><b>Install Python:</b> Ensure you have Python 3.9+ installed on your Mac.</li>
+  <li><b>Install Dependencies:</b>Open your terminal and run:</li>
+  
+  <code>Bash
 python3 -m pip install streamlit pandas openpyxl altair
+</code>
 
-Launch the App: Run this command in the terminal:
-
-Bash
+  <li><b>Launch the App:</b> Run this command in the terminal:</li>
+  
+<code>Bash
 python3 -m streamlit run uploadxlsx.py
+</code>
 
-Access in Browser: Go to http://localhost:8501 in Google Chrome.
+ <li><b>Access in Browser:</b> Go to http://localhost:8501 in Google Chrome.</li>
+</ol>
 
-🛠 Features
-Auto-Cleaning: Strips hidden spaces from column headers.
+<H2> 🛠 Features</H2> 
+<ul>
+<li><b>Auto-Cleaning:</b> Strips hidden spaces from column headers.</li>
 
-Header Selection: Adjust the header parameter to skip "Title" rows in Excel.
+<li><b> Header Selection: </b> Adjust the header parameter to skip "Title" rows in Excel.</li>
 
-Type Safety: Automatically converts text-based numbers into math-ready decimals.
+<li><b>Type Safety: </b> Automatically converts text-based numbers into math-ready decimals.</li>
 
-Dynamic Visualization: Pick your X and Y axes and change chart colors on the fly.
+<li><b>Dynamic Visualization: </b> Pick your X and Y axes and change chart colors on the fly.</li>
 
-Data Export: Cleaned data can be downloaded as a fresh CSV.
+<li><b>Data Export: </b> Cleaned data can be downloaded as a fresh CSV.</li>
+</ul>
